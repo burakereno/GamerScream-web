@@ -1,16 +1,15 @@
-import { Mic } from "./components/icons";
+
 
 export default function Home() {
     return (
         <main className="min-h-screen flex flex-col">
             {/* ─── NAV ─── */}
             <nav className="w-full max-w-6xl mx-auto px-6 py-6 flex items-center gap-3 animate-fade-in-up">
-                <div className="w-9 h-9 rounded-xl bg-accent/15 border border-accent/30 flex items-center justify-center">
-                    <Mic className="w-5 h-5 text-accent" />
-                </div>
-                <span className="text-lg font-bold tracking-tight text-text-primary">
-                    GamerScream
-                </span>
+                <img
+                    src="/logo.svg"
+                    alt="GamerScream"
+                    className="h-7 w-auto drop-shadow-[0_2px_8px_rgba(249,115,22,0.3)]"
+                />
             </nav>
 
             {/* ─── HERO ─── */}
