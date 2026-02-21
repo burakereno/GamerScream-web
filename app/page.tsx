@@ -36,14 +36,14 @@ export default function Home() {
                         {/* CTAs */}
                         <div className="animate-fade-in-up animate-delay-400 mt-10 flex flex-col sm:flex-row items-start gap-4">
                             <a
-                                href="https://github.com/burakereno/GamerScream-app/releases/latest/download/GamerScream-1.1.4-arm64.dmg"
+                                href="https://github.com/burakereno/GamerScream-app/releases/latest/download/GamerScream-1.1.5-arm64.dmg"
                                 className="btn-glow inline-flex items-center gap-3 px-7 py-3.5 rounded-xl bg-accent text-white font-semibold text-base"
                             >
                                 <AppleIcon />
                                 Download for Mac
                             </a>
                             <a
-                                href="https://github.com/burakereno/GamerScream-app/releases/latest/download/GamerScream-Setup-1.1.4.exe"
+                                href="https://github.com/burakereno/GamerScream-app/releases/latest/download/GamerScream-Setup-1.1.5.exe"
                                 className="btn-outline inline-flex items-center gap-3 px-7 py-3.5 rounded-xl bg-transparent text-text-primary font-semibold text-base border border-border"
                             >
                                 <WindowsIcon />
