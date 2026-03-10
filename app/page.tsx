@@ -1,3 +1,5 @@
+import { CopyButton } from "./components/CopyButton"
+
 export default function Home() {
     return (
         <main className="min-h-screen flex flex-col">
@@ -49,6 +51,18 @@ export default function Home() {
                                 <WindowsIcon />
                                 Download for Windows
                             </a>
+                        </div>
+
+                        {/* Mac fix */}
+                        <div className="animate-fade-in-up animate-delay-500 mt-6">
+                            <div className="flex items-center gap-2 bg-white/[0.04] border border-border rounded-lg px-4 py-2.5 font-mono text-sm text-text-secondary">
+                                <code className="flex-1 select-all">xattr -cr /Applications/GamerScream.app</code>
+                                <CopyButton text="xattr -cr /Applications/GamerScream.app" />
+                            </div>
+                            <p className="mt-2 text-xs text-text-muted leading-relaxed">
+                                🍎 Mac users: If you see &quot;app is damaged&quot;, paste this in Terminal after installing.
+                                It removes the macOS quarantine flag from unsigned apps.
+                            </p>
                         </div>
 
                     </div>
